@@ -1,0 +1,1 @@
+Set the screen size to 1240*877 as A4 paper format
