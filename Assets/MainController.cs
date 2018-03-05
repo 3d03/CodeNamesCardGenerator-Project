@@ -185,7 +185,7 @@ public class MainController : MonoBehaviour {
 			{
 				PlayerPrefs.SetInt("PrintCounter", PlayerPrefs.GetInt("PrintCounter") + 1);
 			}
-			string ScreenShotName = Application.dataPath.Substring(0, Application.dataPath.LastIndexOf('/')) +"/Карточки_CodeNames_"+ PlayerPrefs.GetInt("PrintCounter")+ ".png";
+			string ScreenShotName = Application.dataPath.Substring(0, Application.dataPath.LastIndexOf('/')) +"/Cards_CodeNames_"+ PlayerPrefs.GetInt("PrintCounter")+ ".png";
 			ScreenCapture.CaptureScreenshot(ScreenShotName, SizeMultiplier);
 			yield return new WaitForSeconds(0.5f);
 		}
