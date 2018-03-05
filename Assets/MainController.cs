@@ -29,7 +29,7 @@ public class MainController : MonoBehaviour {
 	public InputField mailIF;   //Used InputField for copypaste ability
 
 
-	float SizeMultiplier=4.0f;  //Multiplier Actual screen size when saving to image file
+	int SizeMultiplier=4;  //Multiplier Actual screen size when saving to image file
 
 	// Use this for initialization
 	void Start () {
